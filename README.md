@@ -1,5 +1,9 @@
 # PES Weimar — business tools and workflow showcase
 
+## Paid toolkit release — 1 November 2026
+
+The separate paid toolkit is now version **1.1.0**, with bilingual tools/guides and a tested portable Windows x64 local launch mode. The Gumroad download was retrieved after saving and matched the tested archive. See [release verification and limits](docs/bilingual-repair-2026-11-01.md). Full paid source and bundled runtime are excluded from this public showcase.
+
 A portfolio of Earl Flanagan’s business direction, training expertise and review of AI-assisted tools and service workflows. The original stack includes a four-tool sales-readiness product and a later bilingual service website. See [stack inventory](docs/stack-inventory.md).
 
 This is a **sanitized educational demonstration**, not the production website or a customer-management system. All enquiry examples are fictional. It sends no messages, creates no bookings and stores no enquiry data.
@@ -47,3 +51,4 @@ No open-source licence is granted by this repository. See `NOTICE.md`; request p
 ## Later workflow improvements
 
 See [workflow upgrades and verification](docs/workflow-upgrades.md) and the [stack roadmap](docs/stack-roadmap.md) for the later Call Prep work, topic selector, backup/restore boundaries and outstanding validation. Private candidate results are documented separately from the small public demo tests.
+
