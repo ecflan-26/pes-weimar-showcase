@@ -8,7 +8,9 @@ This is a **sanitized educational demonstration**, not the production website or
 
 Open `demo/index.html` in a browser. No installation, account or server is needed. Choose English or German, select a service, and preview a fictional enquiry. Use invented information only.
 
-Run the automated checks with Node.js: `node --test tests/workflow.test.cjs`.
+A second [topic and meeting-stage demo](demo/call-prep.html) shows editable fictional preparation suggestions.
+
+Run the public sample checks with Node.js: `node --test tests/*.test.cjs`.
 
 ## What this demonstrates
 
@@ -41,3 +43,7 @@ The 30 October 2026 project records report 31 form assertions, 165 local-link ch
 - `docs/`: workflow, attribution and publication boundaries.
 
 No open-source licence is granted by this repository. See `NOTICE.md`; request permission before reusing the materials.
+
+## Later workflow improvements
+
+See [workflow upgrades and verification](docs/workflow-upgrades.md) and the [stack roadmap](docs/stack-roadmap.md) for the later Call Prep work, topic selector, backup/restore boundaries and outstanding validation. Private candidate results are documented separately from the small public demo tests.

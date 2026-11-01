@@ -1,0 +1,4 @@
+const byId=id=>document.getElementById(id),sample=PESCallSample;
+for(const [id,choices]of [['topic',sample.topics],['stage',sample.stages]])for(const [value,label]of Object.entries(choices)){const option=document.createElement('option');option.value=value;option.textContent=Array.isArray(label)?label[0]:label;byId(id).append(option);}
+byId('preview').onclick=()=>{const s=sample.suggest(byId('topic').value,byId('stage').value);byId('suggestion').textContent=s.questions+'\n\nPreparation: '+s.tasks;};
+byId('apply').onclick=()=>{const next=sample.apply({questions:byId('questions').value,tasks:byId('tasks').value,outcomes:byId('outcomes').value},byId('topic').value,byId('stage').value,byId('replace').checked);for(const id of ['questions','tasks'])byId(id).value=next[id];byId('status').textContent='Preparation updated in memory. Actual outcomes preserved. Nothing saved or sent.';};
