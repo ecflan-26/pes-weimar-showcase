@@ -32,3 +32,12 @@ The 221 assertions include the 34 workflow assertions; do not add overlapping co
 ## Remaining work
 
 Structured recovery for the other three tools, a complete English/German interface, existing-user migration and current live-distribution verification remain open. Agent browser policy blocks file://; no workaround or direct-file test is claimed. The full owner-reported 18-month development history remains incompletely evidenced. The paid product has not been replaced by these candidates.
+
+
+## Consolidated candidate.3 follow-up
+
+The next private candidate adds structured saved-data JSON recovery to Evidence Capture, ICP Profiler and Release Checklist. The first two merge records with duplicate/conflict protection. Checklist protects a different active review. Unfinished drafts in these three tools are not included. Call Prep retains its separate JSON schema and draft controls.
+
+Verification: 223 Call Prep regression/compatibility assertions and a separate 32-assertion recovery suite pass against the consolidated candidate. The latter uses fictional JSON files actually downloaded from the three tools. Browser checks verify exports for all three and duplicate-import preview/merge for ICP. Form labels were associated and checklist heading contrast repaired. These are partial usability checks, not accessibility certification.
+
+The current live delivery was independently rechecked by download and checksum comparison and remains the original release. The new candidate was not deployed. A requested mobile override did not apply; no mobile pass is claimed. Current-version direct-file, complete browser restore/migration, guide refresh and full interface translation remain open.
