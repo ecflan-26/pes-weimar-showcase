@@ -1,0 +1,5 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');const {validate,offers}=require('../src/workflow.js');
+test('whitespace-only names and goals rejected',()=>{assert.deepEqual(validate({name:'   ',goal:'\n',offer:'meeting'}).errors,['name','goal']);});
+test('valid input is trimmed',()=>{assert.deepEqual(validate({name:' Demo ',goal:' Rehearse ',offer:'meeting'}).value,{name:'Demo',goal:'Rehearse',offer:'meeting'});});
+test('unknown service cannot enter workflow',()=>{assert.equal(validate({name:'Demo',goal:'Test',offer:'unexpected'}).valid,false);for(const offer of offers)assert.equal(validate({name:'Demo',goal:'Test',offer}).valid,true);});
+test('demo has no submission or browser persistence',()=>{const code=fs.readFileSync(path.join(__dirname,'../demo/demo.js'),'utf8');assert.doesNotMatch(code,/fetch\(|XMLHttpRequest|sendBeacon|localStorage|sessionStorage/);const html=fs.readFileSync(path.join(__dirname,'../demo/index.html'),'utf8');assert.doesNotMatch(html,/https?:|action=|data-netlify|type=.email/);assert.match(code,/textContent=JSON.stringify/);});
