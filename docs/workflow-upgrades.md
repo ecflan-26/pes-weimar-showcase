@@ -1,4 +1,12 @@
-# Workflow improvements — 1 November 2026
+# Workflow improvements — release and development history
+
+## Current released status
+
+Toolkit **1.1.0** was delivered and checksum-verified on 1 November 2026. English/German interfaces and guides, JSON recovery across all four tools, and the supported Windows x64 local saving workflow passed the released-package checks. See [current release verification and limits](bilingual-repair-2026-11-01.md).
+
+The candidate notes below preserve earlier checkpoints from that day. Statements that translation, recovery or delivery were still pending describe those earlier candidates and are superseded by the release record. Real customer migrations and additional platform/browser combinations remain unverified.
+
+## Earlier development checkpoints — 1 November 2026
 
 The private toolkit candidate has developed beyond the original release. Its full source and buyer materials remain excluded from this public portfolio.
 
@@ -29,12 +37,12 @@ The topics are first customer meeting, presentation rehearsal, product demonstra
 
 The 221 assertions include the 34 workflow assertions; do not add overlapping counts together. The public sample has its own smaller tests. No customer, revenue, conversion or legal-clearance result is implied.
 
-## Remaining work
+## Work remaining at the earlier topic-candidate checkpoint
 
 Structured recovery for the other three tools, a complete English/German interface, existing-user migration and current live-distribution verification remain open. Agent browser policy blocks file://; no workaround or direct-file test is claimed. The full owner-reported 18-month development history remains incompletely evidenced. The paid product has not been replaced by these candidates.
 
 
-## Consolidated candidate.3 follow-up
+## Earlier consolidated candidate.3 checkpoint
 
 The next private candidate adds structured saved-data JSON recovery to Evidence Capture, ICP Profiler and Release Checklist. The first two merge records with duplicate/conflict protection. Checklist protects a different active review. Unfinished drafts in these three tools are not included. Call Prep retains its separate JSON schema and draft controls.
 

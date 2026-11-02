@@ -1,54 +1,60 @@
 # PES Weimar — business tools and workflow showcase
 
-## Paid toolkit release — 1 November 2026
+**Turning business-communication expertise into clear, testable digital workflows.**
 
-The separate paid toolkit is now version **1.1.0**, with bilingual tools/guides and a tested portable Windows x64 local launch mode. The Gumroad download was retrieved after saving and matched the tested archive. See [release verification and limits](docs/bilingual-repair-2026-11-01.md). Full paid source and bundled runtime are excluded from this public showcase.
+## Problem → my contribution → demonstrated result
 
-A portfolio of Earl Flanagan’s business direction, training expertise and review of AI-assisted tools and service workflows. The original stack includes a four-tool sales-readiness product and a later bilingual service website. See [stack inventory](docs/stack-inventory.md).
+**Problem:** customers need to understand a training offer, prepare for a business conversation and know what happens next. The business needs usable context without confusing an enquiry, an acknowledgement and an agreed paid engagement.
 
-This is a **sanitized educational demonstration**, not the production website or a customer-management system. All enquiry examples are fictional. It sends no messages, creates no bookings and stores no enquiry data.
+**My contribution:** I supplied the business direction and training expertise, defined practical user needs, reviewed wording and behaviour, and directed revisions and testing. Skywork performed most of the original development; ChatGPT/Codex supported later implementation, debugging, documentation and automated checks.
 
-## Try it
+**Demonstrated result:** a German/English service workflow and a separate four-tool preparation toolkit. The paid toolkit's **1.1.0 release was delivered and checksum-verified on 1 November 2026**, with tested JSON recovery across all four tools and a supported portable Windows x64 launch mode. See [release verification and limits](docs/bilingual-repair-2026-11-01.md).
 
-Open `demo/index.html` in a browser. No installation, account or server is needed. Choose English or German, select a service, and preview a fictional enquiry. Use invented information only.
+## See the public sample
 
-A second [topic and meeting-stage demo](demo/call-prep.html) shows editable fictional preparation suggestions.
+![Fictional PES enquiry demo showing a presentation-review request and a local preview confirmation](docs/images/enquiry-demo.png)
 
-Run the public sample checks with Node.js: `node --test tests/*.test.cjs`.
+*Actual screenshot of the public demo using invented details. The preview sends and stores nothing; it is not an order or the paid toolkit.*
+
+Download the repository and open `demo/index.html` in your browser. No account, installation or server is required for this fictional sample. Choose English or German, select a service and preview an enquiry.
+
+The [topic and meeting-stage sample](demo/call-prep.html) demonstrates editable fictional preparation suggestions. [Training and editing examples](samples/) provide additional subject-matter context.
 
 ## What this demonstrates
 
-- Explaining services and guiding a user to an appropriate next step.
-- Bilingual support language and accessible form feedback.
-- Validating and trimming required input, and restricting service selection to known options.
-- Separating an enquiry from a paid order, and a submission acknowledgement from actual email delivery.
-- Documenting a workflow, checking changes and keeping private material out of a public repository.
+- Explaining services and guiding a user to a practical next step.
+- Bilingual user guidance, accessible form feedback and input validation.
+- Keeping preparation suggestions separate from actual outcomes and agreed actions.
+- Distinguishing an enquiry from a paid order, and acknowledgement from delivery.
+- Reviewing AI-assisted work, documenting evidence and protecting private material.
 
-## My role and AI assistance
+Run the public sample checks with Node.js: `node --test tests/*.test.cjs`.
 
-I supplied the business context, service direction and subject-matter experience; reviewed wording and behaviour; and directed revisions and testing. Skywork performed most of the original development, as confirmed by Earl. ChatGPT/Codex supported later implementation, debugging, documentation and checks. This showcase and its small fictional enquiry demo were newly assembled with Codex assistance in November 2026; the demo is not the original paid toolkit. It should not be read as evidence of independent professional software-engineering employment.
+## The stack and its boundaries
 
-## Real workflow vs this demo
+The service website uses static HTML, CSS and JavaScript, with Netlify hosting/Forms and a public Cal.com booking route. Enquiry review, proposals and customer decisions remain human-led.
 
-The inspected PES source uses static HTML, CSS and JavaScript, with Netlify hosting/Forms and a public Cal.com booking route. Its public site has German and English pages and practical business-communication guides. Enquiry handling and proposals remain human-led. See [architecture](docs/architecture.md) and [case study](docs/case-study.md).
+The separate paid workbench contains Evidence Capture, Call Prep, ICP Profiler and Release Checklist. Its supported Windows launcher uses a fixed local address; saved data remains browser-local and requires JSON backups. It is not a shared cloud CRM. Full paid source and the bundled runtime are excluded here.
 
-This demo replaces production submission with an in-memory preview. It excludes actual form endpoints, booking links, mailbox addresses, client records, private analytics, original recommendation letters, account identifiers and verification tokens. No production history is included.
+The public sample was newly assembled with Codex assistance in November 2026. It uses fictional examples and an in-memory preview. It contains no production form endpoint, booking integration, mailbox address, customer record, private analytics or verification token. No production history is included.
 
-## Evidence and limits
+See [stack inventory](docs/stack-inventory.md), [architecture](docs/architecture.md) and [case study](docs/case-study.md).
 
-The 30 October 2026 project records report 31 form assertions, 165 local-link checks and seven page metadata checks for the production release. Those are dated records, not tests rerun by this showcase. This package has its own smaller tests. No traffic, customer, revenue, accessibility certification or ranking improvement is claimed.
+## Evidence you can inspect
 
-## Contents
+- [Current release verification](docs/bilingual-repair-2026-11-01.md): delivery checksum, bilingual interface/guides, backup recovery and Windows launch checks.
+- [Workflow improvements](docs/workflow-upgrades.md): current status and clearly dated development history.
+- [Evidence timeline](docs/evidence-timeline.md): what each checkpoint establishes.
+- [Remaining priorities](docs/stack-roadmap.md): supported scope and outstanding external validation.
 
-- `demo/`: runnable sample, without external dependencies.
-- `src/workflow.js`: small reusable validation/preview module.
-- `tests/`: focused workflow checks.
-- `samples/`: original fictional training and editing examples.
-- `docs/`: workflow, attribution and publication boundaries.
+Release records distinguish the larger private-product checks from this public sample's smaller tests. They do not establish customer adoption, revenue, conversion uplift, ranking improvement or accessibility certification. My role is business direction, subject-matter expertise and review; AI-assisted implementation should not be read as independent professional software-engineering employment.
 
-No open-source licence is granted by this repository. See `NOTICE.md`; request permission before reusing the materials.
+## Repository contents
 
-## Later workflow improvements
+- `demo/`: runnable fictional samples, without external dependencies.
+- `src/`: small sample validation and preparation modules.
+- `tests/`: focused public-sample checks.
+- `samples/`: fictional training and editing examples.
+- `docs/`: current release, workflow, attribution and publication boundaries.
 
-See [workflow upgrades and verification](docs/workflow-upgrades.md) and the [stack roadmap](docs/stack-roadmap.md) for the later Call Prep work, topic selector, backup/restore boundaries and outstanding validation. Private candidate results are documented separately from the small public demo tests.
-
+No open-source licence is granted. See [NOTICE.md](NOTICE.md); request permission before reusing the materials.
